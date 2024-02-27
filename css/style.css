@@ -1,0 +1,600 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/main8.jpg);
+    background-size: cover;
+    backdrop-filter: blur;
+}
+
+.navbar{
+    height: 15%;
+    width: 100%;
+    /* background-color: blue; */
+    justify-content: flex-end;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3%;
+    list-style: none;
+}
+
+.lists{
+    margin: 20px;
+    /* color: white; */
+}
+
+.nav button{
+    height: 20%;
+    width: 10%;
+    margin: 3%;
+    border-radius: 20px;
+    border: none;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text h5{
+    font-size: 55px;
+    text-align: center;
+    color: white;
+}
+
+.text p{
+    font-size: 20px;
+    /* margin-bottom: 18%; */
+    color: gray;
+}
+
+.text button{
+    height: 55%;
+    /* width: 20%; */
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+.page2{
+    height: 130vh;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+}
+
+.kando{
+    height: 100%;
+    width: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kando h6{
+    font-size: 10px;
+    color: pink;
+    margin-right: 65%;
+    /* margin-top: 7%; */
+}
+
+.kando h1{
+    font-size: 65px; 
+}
+
+.kando p{
+    font-size: 17px;
+    color: gray;
+    margin-left: 9%;
+}
+
+.kando button{
+    background-color: rgb(95, 195, 253);
+    border-radius: 20px;
+    height: 3%;
+    width: 45%;
+    border: none;
+    margin-right: 35%;
+    color: white;
+    margin-top: 3%;
+}
+.center{
+    height: 100%;
+    width: 30%;
+    margin-left: 4%;
+
+}
+
+.startup{
+    height: 50%;
+    width: 75%;
+    background-color: rgb(225, 97, 150);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.startup h2{
+    text-align: center;
+}
+
+.startup p{
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.minds{
+    height: 45%;
+    width: 75%;
+    background-color: rgb(50, 82, 241);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.minds p{
+    color: white;
+    text-align: center;
+}
+
+.end{
+    height: 100%;
+    width: 30%;
+    margin: 10px;
+}
+
+.project{
+    height: 50%;
+    width: 75%;
+    background-color: rgb(139, 201, 139);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.project h4, .peer h4{
+    font-size: 20px;
+}
+
+.project p, .peer p{
+    color: white;
+    text-align: center;
+}
+
+.peer{
+    height: 45%;
+    width: 75%;
+    background-color: rgb(253, 194, 3); display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 60%;
+    background-image: url(/images/left.jpg);
+    background-size: cover;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    /* background-image: url(/images/back-image2.png); */
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right h4{
+    font-size: 35px;
+    color: rgb(119, 213, 245);
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+.right p{
+    margin-left: 18%;
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 30%;
+}
+
+.right button{
+    margin-right: 30%;
+    height: 7%;
+    width: 35%;
+    background-color: rgb(194, 62, 84);
+    border: none;
+    border-radius: 20px;
+    font-size: small;
+    color: white;
+}
+
+.page4{
+    height: 180vh;
+    width: 100%;
+    background-color: white;
+}
+
+.top{
+    height: 20%;
+    width: 100%;
+    /* margin-left: 3%; */
+}
+
+.top h6{
+    color: rgb(243, 94, 143);
+    font-size: 15px;
+    margin-left: 6%;
+}
+
+.top h1{
+    font-size: 50px;
+    color: rgb(81, 80, 80);
+    margin-left: 6%;
+}
+
+.bottom{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.bottom1, .bottom2, .bottom3{
+    height: 100%;
+    width: 40%;
+}
+
+.bottom1 img, .bottom2 img, .bottom3 img{
+    height: 60%;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.bottom1 h4, .bottom2 h4, .bottom3 h4{
+    color: rgb(9, 205, 205);
+    /* margin-left: 15%; */
+    font-size: 15px;
+}
+
+.bottom1 p, .bottom2 p, .bottom3 p{
+    color: rgb(140, 139, 139);
+    font-size: small;
+}
+.below{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.below1, .below2, .below3{
+    height: 100%;
+    width: 40%;
+    /* background-color: white; */
+}
+
+.below1 img, .below2 img, .below3 img{
+    height: 60%;
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 12%;
+    margin: 2%;
+}
+
+.below1 h5, .below2 h5, .below3 h5{
+    color: rgb(10, 212, 212);
+}
+
+.below1 p, .below2 p, .below3 p{
+    color: rgb(154, 150, 150);
+}
+
+.page5{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+
+.aside{
+    height: 100%;
+    width: 50%;
+    background-image: url(/images/main2.jpg);
+    background-size: cover;
+}
+
+.main{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(59, 104, 253);
+    /* display: flex; */
+}
+
+.main h3{
+    color: white;
+    text-align: center;
+}
+
+.above{
+    height: 45%;
+    width: 100%;
+    background-color: rgb(59, 104, 253);
+    display: flex;
+    text-align: center;
+}
+
+.admissions h5, .methods h5{
+    font-size: small;
+    font-weight: 600;
+    color: rgb(43, 43, 43);
+}
+
+.admissions p, .methods p{
+    font-size: 15px;
+    color: white;
+}
+
+.above1{
+    height: 45%;
+    width: 100%;
+    background-color: rgb(59, 104, 253);
+    display: flex;
+    text-align: center;
+}
+
+.classes h3, .success h4{
+    font-size: small;
+
+}
+
+.classes p, .success p{
+    font-size: 15px;
+    color: white;
+}
+
+.page6{
+    height: 100vh;
+    width: 100%;
+    /* background-color: white; */
+}
+
+.up{
+    height: 20%;
+    width: 100%;
+    background-color: beige;
+    text-align: center;
+}
+
+.down{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.kando{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+}
+
+.kushoto{
+    height: 100%;
+    width: 50%;
+
+}
+
+.page7{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/main5.jpg);
+    background-size: cover;
+}
+
+.page8{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(234, 232, 232);
+}
+
+.high{
+    height: 10%;
+    width: 100%;
+    
+}
+
+.low{
+    height: 70%;
+    width: 100%;
+    /* background-color: wh; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.low1, .low2, .low3{
+    height: 55%;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.low1 h1, .low2 h1, .low3 h1{
+    color: rgb(255, 91, 118);
+}
+
+.low1 p, .low2 p, .low3 p{
+    color: grey;
+}
+
+.inside{
+    height: 25%;
+    width: 100%;
+    background-color: rgb(255, 10, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inside h5{
+    font-size: 20px;
+    color: white;
+}
+
+.inside button{
+    margin-left: 4%;
+    height: 25%;
+    width: 15%;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+}
+
+.inside button:hover{
+    background-color: rgb(255, 15, 55);
+    stroke: white;
+}
+
+.page9{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.juu{
+    height: 50%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.juu h2{
+    font-size: 35px;
+}
+
+.nyuma{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nyuma1, .nyuma2, .nyuma3, .nyuma4, .nyuma5{
+    height: 45%;
+    width: 25;
+}
+
+.nyuma1 img, .nyuma2 img, .nyuma3 img, .nyuma4 img, .nyuma5 img{
+    height: 65%;
+    width: 100%;
+}
+
+.page10{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(59, 58, 58);
+}
+.kulia{
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+
+.kulia1, .kulia2, .kulia3, .kulia4{
+    height: 45%;
+    width: 30%;
+    text-align: start;
+} 
+
+.kulia1 img{
+    height: 45%;
+    width: 35%;
+}
+
+.kulia1 p{
+    font-size: small;
+    color: grey;
+}
+
+.kulia1 h4, .kulia2 h4, .kulia3 h4, .kulia4 h4{
+    color: white;
+    font-size: medium;
+    margin-left: 19%;
+}
+
+.lists{
+    list-style: none;
+    text-align: start;
+    color: grey;
+}
+
+.lists a{
+    color: rgb(250, 41, 76);
+    text-decoration: none;
+}
+
+.link a{
+    color: white;
+    margin-left: 18%;
+}
+
+.link a:hover{
+    color: rgb(255, 55, 88);
+    text-decoration: none;
+}
+
+.outside{
+    height: 30%;
+    width: 100%;
+    background-color: black;
+}
+
+.outside p{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    display: flex;
+}
